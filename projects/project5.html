@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Multi-Role Authentication – Portfolio</title>
+    <link rel="stylesheet" href="../styles.css">
+    <meta name="description" content="Sistem login & hak akses dinamis (Admin, Siswa, Guru, dll).">
+    <!-- Tambahan Google Fonts & Font Awesome untuk ikon tombol yang keren -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+
+    <style>
+        /* Base Style Reset untuk demo halaman ini */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #ffffff;
+            margin: 0;
+            background-color: #0f0f1a;
+        }
+
+        /* Desain Tombol Kembali yang Keren */
+        .btn-back-container {
+            margin-top: 3rem;
+            display: flex;
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.8rem 1.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Efek Hover Animasi */
+        .btn-back:hover {
+            background: linear-gradient(45deg, #00f2fe, #4facfe);
+            border-color: transparent;
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(79, 172, 254, 0.4);
+        }
+
+        /* Animasi Panah saat Hover */
+        .btn-back:hover i {
+            transform: translateX(-5px);
+        }
+
+        .btn-back i {
+            transition: transform 0.3s ease;
+            font-size: 0.85rem;
+        }
+
+        /* Styling tambahan untuk tag agar rapi */
+        .p-tags span {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="project-detail"
+        style="background: linear-gradient(45deg, #1a1a2e, #16213e); padding: 3rem 2rem; min-height: 100vh; box-sizing: border-box;">
+        <img src="../assets/images/5.jpg" alt="Multi-Role Authentication (Sistem Keamanan Web)"
+            class="project-detail-image"
+            style="max-width:100%; height:auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 2rem;">
+
+        <h2>Multi-Role Authentication</h2>
+        <p style="color: #cbd5e1; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+            Sistem login & hak akses dinamis (Admin, Guru, Siswa, dll).
+        </p>
+
+        <div class="p-tags" style="margin-bottom: 2rem;">
+            <span>Role-Based Access Control (RBAC)</span>
+            <span> PHP Authentication & Authorization</span>
+        </div>
+
+        <h3 class="glass-panel">About This Project</h3>
+        <br>
+        <p style="color: #ffffff; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+            Aplikasi Sistem Keamanan Web adalah sistem berbasis web yang dirancang untuk keamanan website sekolah.
+            <br>
+            Proyek ini dikembangkan menggunakan teknologi PHP Native dan MySQL.
+            <br>
+            Tujuan utama sistem ini adalah memberikan kemudahan, kecepatan, dan akurasi data bagi pihak sekolah.
+        </p>
+
+        <h3 class="glass-panel">Main Features</h3>
+        <br>
+        <ul style="color: #ffffff; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+            <li><strong>Multi-Role Authentication:</strong><br>Sistem login & hak akses dinamis (Admin, Guru, Siswa,
+                dll).</li>
+            <li><strong>PHP Authentication & Authorization:</strong><br>Aplikasi Sistem Keamanan Web adalah sistem
+                berbasis web yang dirancang untuk keamanan website sekolah.</li>
+        </ul>
+    </main>
+
+</body>
+
+</html>
